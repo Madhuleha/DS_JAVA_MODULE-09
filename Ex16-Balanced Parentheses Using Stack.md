@@ -5,16 +5,16 @@ To write a Java program that verifies whether the parentheses (brackets) in an i
 
 ## Algorithm
 1. Start the program.
-2.Read an input string containing parentheses/brackets.
-3.Create a stack to store opening brackets.
-4.Traverse each character of the string:
-5.If the character is an opening bracket (, {, [, push it onto the stack.
-6.Check if the stack is empty: If yes, the string is unbalanced.
-7.Otherwise, pop the top element from the stack and verify if it matches the current closing bracket.
-8.If the brackets do not match, the string is unbalanced.
-9.After traversal:
-10.If the stack is empty, the string is balanced; otherwise, it's unbalanced.
-11.End the program.
+2. Read an input string containing parentheses/brackets.
+3. Create a stack to store opening brackets.
+4. Traverse each character of the string:
+5. If the character is an opening bracket (, {, [, push it onto the stack.
+6. Check if the stack is empty: If yes, the string is unbalanced.
+7. Otherwise, pop the top element from the stack and verify if it matches the current closing bracket.
+8. If the brackets do not match, the string is unbalanced.
+9. After traversal:
+10. If the stack is empty, the string is balanced; otherwise, it's unbalanced.
+11. End the program.
 
 ## Program:
 ```
